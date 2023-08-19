@@ -6,6 +6,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Projects</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+    main {
+      padding: 2rem;
+      text-align: center;
+    }
+    .project {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 1rem;
+      margin-bottom: 2rem;
+    }
+    .project-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
 </head>
 
 <body>
@@ -27,11 +72,19 @@
       <h2>Project 1</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eros vel enim vulputate finibus. Integer eu
         ultricies mauris.</p>
+      <div class="project-buttons">
+        <button><a href="demo1.html">Demo</a></button>
+        <button><a href="code1.html">Code</a></button>
+      </div>
     </section>
     <section class="project">
       <h2>Project 2</h2>
       <p>Quisque fringilla purus eu finibus aliquam. Aliquam tristique volutpat ipsum vitae iaculis. Nam tincidunt mauris
         arcu, vitae varius metus venenatis et.</p>
+      <div class="project-buttons">
+        <button><a href="demo2.html">Demo</a></button>
+        <button><a href="code2.html">Code</a></button>
+      </div>
     </section>
   </main>
 

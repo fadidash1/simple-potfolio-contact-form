@@ -6,6 +6,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+    main {
+      padding: 2rem;
+      text-align: center;
+    }
+    .portfolio-image {
+      max-width: 70%;
+      height: auto;
+      border-radius: 25px;
+      margin: 2rem auto;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
 </head>
 
 <body>
@@ -18,13 +57,21 @@
         <li><a href="contact.html">Contact</a></li>
         <li><button id="dark-mode-toggle">Dark Mode</button></li>
       </ul>
-      
     </nav>
   </header>
 
   <main>
     <h1>Welcome to My Portfolio</h1>
     <p>This is a showcase of my work and skills.</p>
+    <img src="./img/portfolio.png.png" alt="Portfolio Image" class="portfolio-image">
+    <p>Here, you'll find a collection of projects that highlight my expertise and creativity in the field of web
+      development. From elegant and intuitive user interfaces to robust backend implementations, each project
+      represents a step forward in my journey as a developer.</p>
+    <p>I'm passionate about crafting meaningful and engaging digital experiences. Whether it's designing responsive
+      layouts, implementing interactive features, or optimizing performance, I'm committed to delivering excellence in
+      every aspect of my work.</p>
+    <p>Feel free to explore my projects and get in touch if you're interested in collaborating or learning more about
+      my skills and experiences. Thank you for visiting my portfolio!</p>
   </main>
 
   <footer>
